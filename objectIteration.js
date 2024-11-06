@@ -78,7 +78,7 @@ function removeCarById(cars, id) {
 
 // 6) Write a `updateCarColor` function that accepts the following arguments: an array of car objects `cars`, an `id` (number) and a `newColor` (string), updates the color of the car with the given id to the new color. and return the updated car object. If no car is found with the given id, return "No Car Found".
 function updateCarColor(cars, id, newColor) {
-  // write your code here...
+  // write your code here..
   const car = cars.find((car) => car.id === id);
   if (car) {
     car.color = newColor;
